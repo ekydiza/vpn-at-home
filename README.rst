@@ -197,6 +197,7 @@ After cloning the repository, you can easily deploy the app for development:
 ::
 
     $ git clone https://github.com/ezaquarii/vpn-at-home
+    $ sudo chmod +x vpn-at-home/
     $ cd vpn-at-home
     $ make install_dependencies  # apt-get only, other distros must do it manually
     ...follow instructions to install packages and Node.js...
